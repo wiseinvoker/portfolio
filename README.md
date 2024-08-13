@@ -1,12 +1,3 @@
-<p align="center" width="100%">
-    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
-</p>
-
----
-# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
-
----
-
 # Developer Portfolio
 
 ### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
@@ -68,9 +59,9 @@ git --version
 To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
 
 ```
-git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
+git clone https://github.com/<YOUR GITHUB USERNAME>/portfolio.git
 
-cd developer-portfolio
+cd portfolio
 ```
 
 ### Install packages from the root directory
@@ -109,26 +100,21 @@ NEXT_PUBLIC_RECAPTCHA_SECRET_KEY = # For captcha verification on contact form
 NEXT_PUBLIC_RECAPTCHA_SITE_KEY =
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
+### Then, Customize data in the `utils/data` [folder](https://github.com/wiseinvoker/portfolio/tree/main/utils/data).
 
 Eg:
 
 ```javascript
 export const personalData = {
-  name: "ABU SAID",
+  name: "Wise Invoker",
   profile: "/profile.png",
   designation: "Full-Stack Software Developer",
-  description: "My name is ABU SAID....",
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
-  address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
+  description: "I am Wise Invoker....",
+  email: "wiseinvoker@gmail.com",
+  phone: "+1 223 266 2809",
+  address: "FL, United States",
+  github: "https://github.com/wiseinvoker",
+  devUsername: "wiseinvoker",
   resume: "...",
 };
 ```
